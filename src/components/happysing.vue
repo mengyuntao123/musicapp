@@ -3,8 +3,8 @@
     <div class="top">
       <div class="all">
         <div class="one"><img src="../assets/img/happysing/banner.icon1@2x.png@3x.png" width="100%"></div>
-        <div class="two"><img src="../assets/img/happysing/banner.icon3@2x.png@3x.png" width="100%"></div>
-        <div class="three"><img src="../assets/img/happysing/banner.icon2@2x.png@3x.png" width="100%"></div>
+        <div class="two"><img src="../assets/img/happysing/icon2.png" width="100%"></div>
+        <div class="three"><img src="../assets/img/happysing/icon3.png" width="100%"></div>
         <div class="tou"><div></div></div>
         <p>Taylor Swift</p>
         <h3>You Need To Calm Down</h3>
@@ -118,8 +118,8 @@ export default {
         background: rgba(0,0,0,.75);
         position: relative;
         .one,.two,.three{
-          width: .4rem;
-          height: .4rem;
+          width: .33rem;
+          height: .33rem;
           // background: rgba(235, 23, 182, 0.5);
           position: absolute;
           top:.65rem;
@@ -132,6 +132,7 @@ export default {
         }
         .three{
           right: .35rem;
+          transform: translateY(.02rem);
         }
         .tou{
           width:2rem;
