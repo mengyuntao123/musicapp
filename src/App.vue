@@ -29,13 +29,14 @@ export default {
 };
 </script>
 
-<style  lang="less" scoped>
-@import url('../static/css/common.css');
+<style lang="less" scoped>
+@import url('./../static/reset.css');
 #app{
   height: 100%;
 }
 html,body{
   background: black;
+  color: #fff;
 }
 
   

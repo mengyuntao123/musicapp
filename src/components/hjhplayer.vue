@@ -3,7 +3,7 @@
     <div class="zhuangtai"></div>
     <div class="hplaynav">
       <span class="hback"></span>
-      <span class="hsongname" v-text="songname">{{songname}}</span>
+      <span class="hsongname" >{{songname}}</span>
       <span class="hsonglist"></span>
     </div>
     <div class="hjhuser">
@@ -153,6 +153,7 @@ export default {
             lrc.style.transfrom=`translateY(-${lrcH})`;
             if (that.time === that.stime) {
               this.num++; // 这个就是暂停
+              audio_.pause()
               clearInterval(this.timer);
               this.timer = null;
               that.show = true;
@@ -209,13 +210,15 @@ export default {
 
 <style scoped lang="less">
 .hjhplay {
-  height: 100%;
+  // height: 100%;
+  color: #fff;
   overflow: auto;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+
   background: url("./../assets/img/happysing/happybg.jpg") no-repeat center
-    center;
+    center #000;
   .zhuangtai {
     height: 0.37rem;
   }
@@ -238,6 +241,7 @@ export default {
       display: block;
       font-size: 0.36rem;
       line-height: 0.36rem;
+      color: #fff;
     }
     .hsonglist {
       display: block;
@@ -261,7 +265,10 @@ export default {
       background: #fff;
     }
     .husername {
+      color: #fff;
+      font-size: .28rem;
       margin: 0 0.13rem;
+      
     }
   }
   .hjhtest {
@@ -354,8 +361,10 @@ export default {
     height: 0.22rem;
     display: flex;
     flex-direction: row;
+    font-size: .24rem;
     justify-content: space-between;
     align-items: center;
+    
     .hjhmp3 {
       position: absolute;
       opacity: 0;
