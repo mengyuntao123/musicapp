@@ -77,7 +77,7 @@ export default {
   .search{
     background: url('../assets/img/happysing/happybg.jpg') center;
     background-size: cover;
-    height: 100%;
+    min-height: 100%;
     color: white;
     font-size: 0;
     overflow: auto;
@@ -213,6 +213,7 @@ export default {
           }
         }
         ul{
+          margin-bottom: 1rem;
           li{
             padding-left:.3rem;
             font-size: .23rem;
