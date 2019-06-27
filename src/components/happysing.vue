@@ -63,7 +63,7 @@
       <h3>好友排行</h3>
       </div>
       <div class="allp">
-        <div class="listt" v-for="i in pai">
+        <div class="listt" v-for="(i,d) in pai" :key='d'>
           <div class="tu"><img src="../assets/img/happysing/icon6@2x.png@3x.png" width="100%"></div>
           <p>{{i}}</p>
           <span>本曲推荐教程视频<img src="../assets/img/happysing/icon7@2x.png@3x.png"></span>
