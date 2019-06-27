@@ -1,4 +1,5 @@
 <template>
+<div class="bt">
    <div class="head">
          <ul class="kl">
              <li class="list">
@@ -105,7 +106,7 @@
           </div>
       </div>
      </div>
-
+</div>
    
 
 </template>
@@ -125,7 +126,7 @@ export default {
 }
 </script>
 
-<style  lang="less">
+<style scoped  lang="less" >
 *{
     margin: 0;
     padding: 0;
@@ -134,14 +135,20 @@ html,body{
     width: 100%;
     height: 100%;
     // overflow:hidden;
-   background: url("./../../img/login.jpg");
+  
     //  font-family:'平方字体';
 }
 #app{
     width: 100%;
     height: 100%;
     // overflow:hidden;  
-    
+     background: url("./../../img/login.jpg") !important;
+     .bt{
+        width: 100%;
+    height: 100%;
+    // overflow:hidden;  
+     background: url("./../../img/login.jpg") !important;
+     }
     .head{
      
         width: 90%;
@@ -178,7 +185,7 @@ html,body{
             //   flex:1;
               text-decoration: none;
               color: white;
-              padding-bottom: .12rem;
+              padding-bottom: .12rem !important;
               
               }
               }

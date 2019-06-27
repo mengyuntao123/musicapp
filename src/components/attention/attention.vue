@@ -126,7 +126,7 @@ export default {
 }
 </script>
 
-<style lang="less">
+<style scoped lang="less" >
 @import "../../../node_modules/swiper/dist/css/swiper.min.css";
 *{
     margin: 0;
@@ -135,20 +135,18 @@ export default {
 html,body{
     width: 100%;
     height: 100%;
-    // overflow:hidden;
-    background: url("./../../img/login.jpg");
-    //  font-family:'平方字体';
 }
 #app{
     width: 100%;
     height: 100%;
-    // overflow:hidden;
     .big{
     width: 100%;
-    height: 100%;
-    //  font-family:'平方字体'; 
+    height: 100%;; 
     font-size: .20rem;
-    // position: relative;
+    background: url("./../../img/login.jpg")!important;
+    // background: black;
+    // background-size: 100% 100%;
+    position: relative;
     ;
     .head{
         width: 90%;
