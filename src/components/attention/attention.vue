@@ -187,7 +187,7 @@ html,body{
               display: inline-block;
               margin-right: 1.50rem;
               color:#f66934; 
-              border-bottom: 3px #f7603a solid;
+              border-bottom: .03rem #f7603a solid;
           }
           .fu{
               display: inline-block;
@@ -215,12 +215,14 @@ html,body{
      }
   }
   .lunbo{
-      width: 95%;
+      width: 94.6%;
       height: 1.6rem;
     //   border: 1px #cccccc solid;
-      float: right;
+    //   float: right;
+    // margin: 0 auto;
+    margin-left: .35rem;
       img{
-          width: 2.32rem;
+          width: 2.2rem;
           height: 1.60rem;
       }
   }
