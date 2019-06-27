@@ -170,6 +170,7 @@ html,body{
         display: flex;
         justify-content: center;
         align-items: center;
+        margin-bottom: .40rem;
         li{
             flex: 1;
             font-size: .4rem;
