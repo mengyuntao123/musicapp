@@ -46,6 +46,18 @@ let router=new Router({
       path: '/search',
       name: 'Search',
       component: Search
+    }
+    ,
+    {
+      path: '/sgxLeaderboard',
+      name: 'SgxLeaderboard',
+      component: SgxLeaderboard
+    },
+    ,
+    {
+      path: '/sgxview',
+      name: 'Sgxview',
+      component: Sgxview
     },
   ]
 })

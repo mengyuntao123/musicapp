@@ -1,13 +1,17 @@
 <template>
   <div>
     <header>
-      <span>
-        <img src="../../static/sgxLeaderboard/imgs/right_icon@2x.png@2x.png" alt>
-      </span>
+      <a href="#">
+        <span>
+          <img src="../../static/sgxLeaderboard/imgs/right_icon@2x.png@2x.png" alt>
+        </span>
+      </a>
       <span>电台</span>
-      <span>
-        <img src="../../static/sgxLeaderboard/imgs/more_icon@2x.png@2x.png" alt>
-      </span>
+      <a href="#">
+        <span>
+          <img src="../../static/sgxLeaderboard/imgs/more_icon@2x.png@2x.png" alt>
+        </span>
+      </a>
     </header>
     <div class="nav">
       <ul>
@@ -28,7 +32,7 @@
           </a>
         </li>
         <li>
-          <a href='#'>
+          <a href="#">
             <img src="../../static/sgxLeaderboard/imgs/img3@2x.jpg.png" alt>
             <div class="ripple">
               <img src="../../static/sgxLeaderboard/imgs/icon3@2x.png@2x.png" alt>
@@ -45,14 +49,14 @@
           </a>
         </li>
         <li>
-          <a href='#'>
+          <a href="#">
             <img src="../../static/sgxLeaderboard/imgs/img5@2x.jpg.png" alt>
             <div class="ripple">
               <img src="../../static/sgxLeaderboard/imgs/icon5@2x.png@2x.png" alt>
               <span>场景</span>
             </div>
           </a>
-          <a href='#' class="rotate">
+          <a href="#" class="rotate">
             <img src="../../static/sgxLeaderboard/imgs/img6@2x.jpg.png" alt>
             <div class="ripple">
               <img src="../../static/sgxLeaderboard/imgs/icon6@2x.png@2x.png" alt>
@@ -106,9 +110,9 @@ header {
     width: 0.34rem;
     height: 0.34rem;
     img {
-       margin:0 auto;
-      width:.34rem;
-      height:.34rem;
+      margin: 0 auto;
+      width: 0.34rem;
+      height: 0.34rem;
     }
   }
   span:nth-child(2) {
@@ -141,9 +145,6 @@ header {
         width: 2.87rem;
         height: 2.87rem;
         position: relative;
-        
-    
-            
 
         img {
           width: 2.87rem;
@@ -171,9 +172,8 @@ header {
             font-size: 0.33rem;
           }
         }
-        
+
         .ripple:after {
-          
           content: "";
           display: block;
           position: absolute;
@@ -185,7 +185,7 @@ header {
           //设置径向渐变
           background-image: radial-gradient(
             circle,
-            rgba(255,255,255,.5) 12%,
+            rgba(255, 255, 255, 0.5) 12%,
             transparent 10.01%
           );
           background-repeat: no-repeat;
@@ -210,9 +210,9 @@ header {
     }
   }
 }
-  // .rotate{
-  //   transform-origin:center center;
-  //       transform: rotateZ(180deg);
-  //       transition: transform 0.2s
-  // }
+// .rotate{
+//   transform-origin:center center;
+//       transform: rotateZ(180deg);
+//       transition: transform 0.2s
+// }
 </style>
