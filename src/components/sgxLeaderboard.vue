@@ -23,7 +23,7 @@
             </a>
           </div>
           <div>
-          <p v-for="(item,index) in arr">{{index+1}}. {{item.name}} - {{item.singer}}</p>
+          <p v-for="(item,index) in arr"><a :href=item.url>{{index+1}}. {{item.name}} - {{item.singer}}</a></p>
           </div>
         </li>
         <li>
@@ -33,7 +33,7 @@
             </a>
           </div>
           <div>
-           <p v-for="(item,index) in arr1"><a href="">{{index+1}}. {{item.name}} - {{item.singer}}</a></p>
+           <p v-for="(item,index) in arr1"><a :href=item.url>{{index+1}}. {{item.name}} - {{item.singer}}</a></p>
           </div>
         </li>
         <li>
@@ -43,7 +43,7 @@
             </a>
           </div>
           <div>
-          <p v-for="(item,index) in arr2"><a href="">{{index+1}}. {{item.name}} - {{item.singer}}</a></p>
+          <p v-for="(item,index) in arr2"><a :href=item.url>{{index+1}}. {{item.name}} - {{item.singer}}</a></p>
           </div>
         </li>
         <li>
@@ -53,7 +53,7 @@
             </a>
           </div>
           <div>
-           <p v-for="(item,index) in arr3"><a href="">{{index+1}}. {{item.name}} - {{item.singer}}</a></p>
+           <p v-for="(item,index) in arr3"><a :href=item.url>{{index+1}}. {{item.name}} - {{item.singer}}</a></p>
           </div>
         </li>
         <li>
@@ -63,7 +63,7 @@
             </a>
           </div>
           <div>
-          <p v-for="(item,index) in arr4"><a href="">{{index+1}}. {{item.name}} - {{item.singer}}</a></p>
+          <p v-for="(item,index) in arr4"><a :href=item.url>{{index+1}}. {{item.name}} - {{item.singer}}</a></p>
           </div>
         </li>
       </ul>
@@ -72,7 +72,7 @@
 </template>
 
 <script>
-import setRem from "../../static/sgxLeaderboard/rem.js";
+// import setRem from "../../static/sgxLeaderboard/rem.js";
 import Axios from "../../node_modules/axios/dist/axios.js";
 // import Axios from "./js/axios.min.js";
 export default {
