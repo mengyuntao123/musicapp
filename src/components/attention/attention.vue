@@ -3,7 +3,7 @@
      <div class="head">
          <ul>
              <li>
-                 <router-link style="border:none" to=""><img src="../../img/关注_slices/nav-icon01@2x.png"></router-link>
+                 <router-link style="border:none" to="/My"><img src="../../img/关注_slices/nav-icon01@2x.png"></router-link>
 
                  <router-link to="/attention" class="guan">关注</router-link>
                  </li>

@@ -175,6 +175,8 @@ export default {
 .hjhmine {
   padding-bottom: .98rem;
   background:#000;
+  color: #fff;
+  overflow: auto;
   .zhuangtai {
     height: 0.37rem;
   }
@@ -247,6 +249,9 @@ export default {
           font-size: 3rem;
           height: 3.47rem;
           background: #ccc;
+          img{
+            width:100%;
+          }
         }
       }
     }
@@ -311,6 +316,7 @@ export default {
         .hjhsname {
           font-size: 0.28rem;
           height: .27rem;
+          color: #fff;
 
         }
         .hjhsuser {
