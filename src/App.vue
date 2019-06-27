@@ -16,7 +16,13 @@ export default {
 </script>
 
 <style lang="less" scoped>
+@import url('../static/css/common.css');
 #app{
   height: 100%;
+  html,body{
+    background: black;
+  }
+
+  
 }
 </style>
