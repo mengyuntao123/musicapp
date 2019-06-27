@@ -5,11 +5,33 @@ import All from '@/components/all'
 import Search from '@/components/search'
 import SgxLeaderboard from '@/components/sgxLeaderboard'
 import Sgxview from '@/components/sgxview'
+import My from '@/components/my'
+import Sidebar from '@/components/sidebar'
 
 Vue.use(Router)
 
 let router=new Router({
   routes: [
+    {
+      path: '/sgxLeaderboard',
+      name: 'SgxLeaderboard',
+      component: SgxLeaderboard
+    },
+    {
+      path: '/sgxview',
+      name: 'Sgxview',
+      component: Sgxview
+    },
+    {
+      path: '/sidebar',
+      name: 'Sidebar',
+      component: Sidebar
+    },
+    {
+      path: '/my',
+      name: 'My',
+      component: My
+    },
     {
       path: '/all',
       name: 'All',
@@ -39,5 +61,5 @@ let router=new Router({
     },
   ]
 })
-router.push('sgxview');
+router.push('all');
 export default router;

@@ -128,7 +128,13 @@ body {
   height: 100%;
   background-color: black;
 }
+ul{
+  list-style-type: none;
+  padding: 0;
+  margin:0;
+}
 header {
+  // text-align: center;
   display: flex;
   justify-content: space-between;
   align-items: center;
