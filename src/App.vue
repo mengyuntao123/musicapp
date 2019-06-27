@@ -29,18 +29,14 @@ export default {
 };
 </script>
 
-<style lang='less'>
-@import url("./../static/reset.css");
-html{
+<style lang="less" scoped>
+@import url('../static/css/common.css');
+#app{
+  height: 100%;
+  html,body{
+    background: black;
+  }
 
-  #app {
-    height: 100%;
-  font-family: "Avenir", Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
- 
-  color: #FFF;
-  background: #000;
-}
+  
 }
 </style>
