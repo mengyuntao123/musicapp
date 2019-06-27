@@ -29,7 +29,7 @@ export default {
 };
 </script>
 
-<style lang="less" scoped>
+<style  lang="less" scoped>
 @import url('../static/css/common.css');
 #app{
   height: 100%;
