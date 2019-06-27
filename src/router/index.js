@@ -3,11 +3,23 @@ import Router from 'vue-router'
 import Happysing from '@/components/happysing'
 import All from '@/components/all'
 import Search from '@/components/search'
+import SgxLeaderboard from '@/components/sgxLeaderboard'
+import Sgxview from '@/components/sgxview'
 
 Vue.use(Router)
 
 let router=new Router({
   routes: [
+    {
+      path: '/sgxLeaderboard',
+      name: 'SgxLeaderboard',
+      component: SgxLeaderboard
+    },
+    {
+      path: '/sgxview',
+      name: 'Sgxview',
+      component: Sgxview
+    },
     {
       path: '/all',
       name: 'All',
@@ -25,5 +37,5 @@ let router=new Router({
     },
   ]
 })
-// router.push('all');
+router.push('all');
 export default router;
