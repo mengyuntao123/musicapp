@@ -74,7 +74,7 @@
 
 <script>
 // import setRem from "../../static/sgxLeaderboard/rem.js";
-// import Axios from "../../node_modules/axios/dist/axios.js";
+import Axios from "../../node_modules/axios/dist/axios.js";
 // import Axios from "./js/axios.min.js";
 export default {
   
