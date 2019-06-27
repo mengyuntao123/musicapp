@@ -142,7 +142,7 @@ html,body{
     width: 100%;
     height: 100%;
     // overflow:hidden;  
-     background: url("./../../img/login.jpg") !important;
+    //  background: url("./../../img/login.jpg") !important;
      .bt{
         width: 100%;
     height: 100%;
@@ -192,9 +192,10 @@ html,body{
               }
               a.router-link-active{
               //  color: #f7603a;
-               background: -webkit-gradient(linear,left top,right top,from(#f66934),to(#ff2465));
-             background-clip: text;
-             -webkit-text-fill-color: transparent;
+              //  background: -webkit-gradient(linear,left top,right top,from(#f66934),to(#ff2465));
+              //  background-clip: text;
+            //  -webkit-text-fill-color: transparent;
+               color: #f66934;
                border-bottom: .03rem #f7603a solid;
            }
               .guan{
