@@ -2,6 +2,8 @@
   <div>
     <router-link to="/happysing">乐唱</router-link>
     <router-link to="/search">搜索页</router-link>
+    <router-link to="/attention">关注</router-link>
+    <router-link to="/nearby">附近</router-link>
   </div>
 </template>
 
