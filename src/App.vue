@@ -1,29 +1,29 @@
 <template>
   <div id="app">
     <!-- <Music></Music> -->
-    <Hjhplayer></Hjhplayer>
+    <!-- <Hjhplayer></Hjhplayer> -->
     <router-view/>
-    <!-- <footplayer></footplayer> -->
+    <footplayer></footplayer>
   </div>
 </template>
 
 <script>
 import setRem from "./../src/assets/js/rem";
 import footplayer from "./components/footerPlayer.vue";
-import Music from "./components/hjhMUsic";
-import Hjhplayer from './components/hjhplayer.vue'
+// import Music from "./components/hjhMUsic";
+// import Hjhplayer from './components/hjhplayer.vue'
 export default {
   name: "App",
   components: {
     footplayer,
-    Hjhplayer,
-    Music
+    // Hjhplayer,
+    // Music
   },
   mounted() {
     setRem.rem();
     window.onresize = setRem.rem;
 
-    this.$router.push("./home");
+    // this.$router.push("./home");
    
   }
 };

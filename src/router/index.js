@@ -12,11 +12,23 @@ import Sidebar from '@/components/sidebar'
 import Start from '../components/start.vue'
 import Lead from '../components/lead.vue'
 import Login from '../components/login.vue'
+import HjhMUsic from '../components/hjhMUsic.vue'
+import Hjhplayer from '../components/hjhplayer.vue'
 
 Vue.use(Router)
 
 let router=new Router({
   routes: [
+    {
+      path: '/hjhMUsic',
+      name: 'HjhMUsic',
+      component: HjhMUsic
+    },
+    {
+      path: '/hjhplayer',
+      name: 'Hjhplayer',
+      component: Hjhplayer
+    },
     {
       path: '/happysing',
       name: 'Happysing',
