@@ -16,5 +16,8 @@ export default {
 </script>
 
 <style lang="less" scoped>
-
+*{
+  font-size:0;
+  height: 100%;
+}
 </style>
