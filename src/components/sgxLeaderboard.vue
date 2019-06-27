@@ -1,4 +1,5 @@
 <template>
+  <!-- <div style="background:black"> -->
   <div style='background:url(../../static/sgxLeaderboard/imgs/bgc.jpg)'>
     <header>
       <a href="">
@@ -73,7 +74,7 @@
 
 <script>
 // import setRem from "../../static/sgxLeaderboard/rem.js";
-import Axios from "../../node_modules/axios/dist/axios.js";
+// import Axios from "../../node_modules/axios/dist/axios.js";
 // import Axios from "./js/axios.min.js";
 export default {
   

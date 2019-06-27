@@ -33,10 +33,14 @@ export default {
 @import url('../static/css/common.css');
 #app{
   height: 100%;
-  html,body{
-    background: black;
-  }
+}
+html,body{
+  background: black;
+}
 
   
+*{
+  font-size:0;
+  height: 100%;
 }
 </style>

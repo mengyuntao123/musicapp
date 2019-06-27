@@ -1,4 +1,5 @@
 <template>
+  <!-- <div style="background:black"> -->
   <div style="background: url(../../static/sgxLeaderboard/imgs/bgc.jpg) no-repeat">
     <header>
       <a href="#">
@@ -71,13 +72,16 @@
 
 <script>
 // import setRem from "../../static/sgxLeaderboard/rem.js";
-import Axios from "../../node_modules/axios/dist/axios.js";
+// import Axios from "../../node_modules/axios/dist/axios.js";
+// import Axios from "../../node_modules/axios/dist/axios.js";
 export default {
   data() {
     return {};
   },
   methods: {},
   mounted() {
+    // setRem.set();
+    // window.onresize = setRem.set;
     
   },
   components: {}
@@ -88,6 +92,11 @@ export default {
 @import "../../static/sgxLeaderboard/common.css";
 * {
   margin: 0;
+  padding: 0;
+}
+ul{
+  list-style: none;
+  margin:0;
   padding: 0;
 }
 html,
