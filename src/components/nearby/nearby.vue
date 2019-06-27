@@ -193,7 +193,7 @@ html,body{
               a.router-link-active{
               //  color: #f7603a;
                background: -webkit-gradient(linear,left top,right top,from(#f66934),to(#ff2465));
-             -webkit-background-clip: text;
+             background-clip: text;
              -webkit-text-fill-color: transparent;
                border-bottom: .03rem #f7603a solid;
            }

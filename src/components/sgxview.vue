@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div style="background: url(../../static/sgxLeaderboard/imgs/bgc.jpg) no-repeat">
     <header>
       <a href="#">
         <span>
@@ -70,7 +70,7 @@
 </template>
 
 <script>
-import setRem from "../../static/sgxLeaderboard/rem.js";
+// import setRem from "../../static/sgxLeaderboard/rem.js";
 import Axios from "../../node_modules/axios/dist/axios.js";
 export default {
   data() {
@@ -78,8 +78,7 @@ export default {
   },
   methods: {},
   mounted() {
-    setRem.set();
-    window.onresize = setRem.set;
+    
   },
   components: {}
 };
@@ -95,7 +94,6 @@ html,
 body {
   width: 100%;
   height: 100%;
-  background: url("../../static/sgxLeaderboard/imgs/bgc.jpg") no-repeat;
   background-size: 100% 100%;
 }
 header {

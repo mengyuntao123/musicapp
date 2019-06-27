@@ -60,18 +60,6 @@ let router=new Router({
       name: 'Search',
       component: Search
     }
-    ,
-    {
-      path: '/sgxLeaderboard',
-      name: 'SgxLeaderboard',
-      component: SgxLeaderboard
-    },
-    ,
-    {
-      path: '/sgxview',
-      name: 'Sgxview',
-      component: Sgxview
-    },
   ]
 })
 router.push('all');
