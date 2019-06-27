@@ -10,14 +10,14 @@
 <script>
 import setRem from "./../src/assets/js/rem";
 import footplayer from "./components/footerPlayer.vue";
-// import Music from "./components/hjhMUsic";
+import Music from "./components/hjhMUsic";
 import Hjhplayer from './components/hjhplayer.vue'
 export default {
   name: "App",
   components: {
     footplayer,
-    Hjhplayer
-    // Music
+    Hjhplayer,
+    Music
   },
   mounted() {
     setRem.rem();

@@ -19,12 +19,12 @@
     <div class="hbanner">
       <div class="swiper-container">
         <ul class="swiper-wrapper">
-          <li class="swiper-slide">1</li>
-          <li class="swiper-slide">2</li>
-          <li class="swiper-slide">3</li>
-          <li class="swiper-slide">4</li>
-          <li class="swiper-slide">5</li>
-          <li class="swiper-slide">6</li>
+          <li class="swiper-slide"><img src="./../assets/mymusic/home-banner-1.png.png" alt=""></li>
+          <li class="swiper-slide"><img src="./../assets/mymusic/home-banner-1.png.png" alt=""></li>
+          <li class="swiper-slide"><img src="./../assets/mymusic/home-banner-1.png.png" alt=""></li>
+          <li class="swiper-slide"><img src="./../assets/mymusic/home-banner-1.png.png" alt=""></li>
+          <li class="swiper-slide"><img src="./../assets/mymusic/home-banner-1.png.png" alt=""></li>
+          <li class="swiper-slide"><img src="./../assets/mymusic/home-banner-1.png.png" alt=""></li>
         </ul>
       </div>
     </div>
@@ -68,21 +68,21 @@
       <ul>
         <li>
           <div class="hjhimg">
-            <img src alt>
+            <img src="../assets/mymusic/home-banner-2.png@3x.png" >
           </div>
           <p class="hjhsname">"Señorita</p>
           <p class="hjhsuser">Shawn Mendes…</p>
         </li>
         <li>
           <div class="hjhimg">
-            <img src alt>
+            <img src="../assets/mymusic/home-banner-3.png@3x.png" >
           </div>
           <p class="hjhsname">大象之歌</p>
           <p class="hjhsuser">周笔畅</p>
         </li>
         <li>
           <div class="hjhimg">
-            <img src alt>
+            <img src="../assets/mymusic/home-banner-4.png@3x.png" >
           </div>
           <p class="hjhsname">那就这样吧</p>
           <p class="hjhsuser">蔡程昱</p>
@@ -97,21 +97,21 @@
       <ul>
         <li>
           <div class="hjhimg">
-            <img src alt>
+            <img src="../assets/mymusic/home-banner-5.png@3x.png" >
           </div>
           <p class="hjhsname">"Señorita</p>
           <p class="hjhsuser">Shawn Mendes…</p>
         </li>
         <li>
           <div class="hjhimg">
-            <img src alt>
+             <img src="../assets/mymusic/home-banner-6.png@3x.png" >
           </div>
           <p class="hjhsname">大象之歌</p>
           <p class="hjhsuser">周笔畅</p>
         </li>
         <li>
           <div class="hjhimg">
-            <img src alt>
+             <img src="../assets/mymusic/home-banner-7.png@3x.png" >
           </div>
           <p class="hjhsname">那就这样吧</p>
           <p class="hjhsuser">蔡程昱</p>
@@ -126,21 +126,21 @@
       <ul>
         <li>
           <div class="hjhimg">
-            <img src alt>
+              <img src="../assets/mymusic/home-banner-8.png@3x.png" >
           </div>
           <p class="hjhsname">"Señorita</p>
           <p class="hjhsuser">Shawn Mendes…</p>
         </li>
         <li>
           <div class="hjhimg">
-            <img src alt>
+             <img src="../assets/mymusic/home-banner-9.png@3x.png" >
           </div>
           <p class="hjhsname">大象之歌</p>
           <p class="hjhsuser">周笔畅</p>
         </li>
         <li>
           <div class="hjhimg">
-            <img src alt>
+              <img src="../assets/mymusic/home-banner-10.png@3x.png" >
           </div>
           <p class="hjhsname">那就这样吧</p>
           <p class="hjhsuser">蔡程昱</p>
@@ -174,6 +174,7 @@ export default {
 <style scoped lang='less'>
 .hjhmine {
   padding-bottom: .98rem;
+  background:#000;
   .zhuangtai {
     height: 0.37rem;
   }
