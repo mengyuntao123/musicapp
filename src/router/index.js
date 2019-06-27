@@ -19,5 +19,5 @@ let router=new Router({
     }
   ]
 })
-router.push('all');
+// router.push('all');
 export default router;
