@@ -102,7 +102,7 @@ export default {
         // console.log(this.arr1);
       })
       .catch(err => {
-        console.log(err);
+        console.log(err); 
       });
   },
   mounted(){
