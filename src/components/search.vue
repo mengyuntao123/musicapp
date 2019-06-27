@@ -3,9 +3,9 @@
     <div class="all">
     <div class="top">
       <div class="tu"><img src="../assets/img/search/icon1.png" width="100%"></div>
-      <input type="text" placeholder="搜索音乐你、歌单、歌词">
-      <span>取消</span>
-    </div>
+      <input type="text" placeholder="搜索音乐你、歌单、歌词" v-model="text">
+      <span><a href="">取消</a></span>
+    </div> 
     <div class="lunb">
       <img src="../assets/img/search/pic3.png">
       <img src="../assets/img/search/pic1.png">
@@ -17,7 +17,7 @@
     <div class="rem">
       <h3>热门搜索</h3>
       <div class="list">
-        <div v-for="(a,b) in list" :class="{'active':a.active}" @click="a.active=!a.active">
+        <div v-for="(a,b) in list" :class="{'active':a.active}" @click="fn(b)">
           {{a.name}}
         </div>
       </div>
@@ -36,6 +36,7 @@
 export default {
   data() {
     return {
+      text:'',
       list:[
         {name:'新歌速递',active:false},
         {name:'成都',active:false},
@@ -47,6 +48,18 @@ export default {
     }
   },
   methods: {
+    fn(a){
+      if(this.list[a].active==true){
+        this.list[a].active=false;
+        this.text='';
+      }else{
+        for(let i=0;i<this.list.length;i++){
+          this.list[i].active=false;
+        }
+        this.list[a].active=true;
+        this.text=this.list[a].name;
+      }
+    },
     delall(){
       this.listh=[]
     },
@@ -68,6 +81,10 @@ export default {
     color: white;
     font-size: 0;
     overflow: auto;
+    a{
+      color: white;
+      text-decoration: none;
+    }
     .all{
       height: 100%;
       h3{
@@ -129,7 +146,7 @@ export default {
         font-size: 0;
         margin-left: -4.56rem;
         margin-top: .45rem;
-        animation: lunbo 12s 3s ease-in-out infinite;
+        animation: lunbo 12s 1s ease-in-out infinite;
         img{
           width: 5.27rem;
           height: 2.86rem;

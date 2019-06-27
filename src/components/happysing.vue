@@ -71,7 +71,7 @@
       </div>
       </div>
       </div>
-    <div class="cli">开启乐唱</div>
+    <div :class="{'cli':true,'aaa':aaa}" @click='kai'>开启乐唱</div>
   </div>
 </template>
 
@@ -81,13 +81,19 @@ export default {
     return {
       list:['日榜','短视频','总榜','唱法推荐'],
       active:0,
-      pai:['Cassie','Lucynuere','changshaohua']
+      pai:['Cassie','Lucynuere','changshaohua'],
+      aaa:false
     }
   },
   methods: {
     fn(a){
       this.active=a;
-      console.log(this.active,a)
+    },
+    kai(){
+      this.aaa=true;
+      setTimeout(()=>{
+        this.aaa=false;
+      },500)
     }
   },
   components: {
@@ -171,13 +177,21 @@ export default {
       position: absolute;
       top: 4.85rem;
       left: 2.32rem;
-      width:2.8rem;
-      height: .73rem;
+      width:2.6rem;
+      height: .53rem;
       color: white;
       text-align: center;
-      line-height: .73rem;
+      line-height: .53rem;
       background: linear-gradient(right,rgb(241,95,57),rgb(254,44,95));
       border-radius: .36rem;
+      border: 10px solid transparent;
+    }
+    .aaa{
+      border-right:10px solid rgba(110, 58, 58, 0.425);
+      border-bottom:10px solid rgba(110, 58, 58, 0.425);
+      border-top:10px solid rgba(248, 122, 122, 0.425);
+      border-left:10px solid rgba(248, 122, 122, 0.425);
+      font-size: .25rem;
     }
     .bottom{
       background: url('../assets/img/happysing/happybg.jpg') center;
