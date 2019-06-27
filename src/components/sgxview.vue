@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div style="background:black">
     <header>
       <a href="#">
         <span>
@@ -70,16 +70,16 @@
 </template>
 
 <script>
-import setRem from "../../static/sgxLeaderboard/rem.js";
-import Axios from "../../node_modules/axios/dist/axios.js";
+// import setRem from "../../static/sgxLeaderboard/rem.js";
+// import Axios from "../../node_modules/axios/dist/axios.js";
 export default {
   data() {
     return {};
   },
   methods: {},
   mounted() {
-    setRem.set();
-    window.onresize = setRem.set;
+    // setRem.set();
+    // window.onresize = setRem.set;
   },
   components: {}
 };
@@ -89,6 +89,11 @@ export default {
 @import "../../static/sgxLeaderboard/common.css";
 * {
   margin: 0;
+  padding: 0;
+}
+ul{
+  list-style: none;
+  margin:0;
   padding: 0;
 }
 html,
