@@ -99,15 +99,16 @@ header {
   justify-content: space-between;
   align-items: center;
   color: white;
-  padding: 0 0.33rem;
+  padding: 0.05rem 0.33rem 0 0.33rem;
   font-size: 0;
   span:nth-child(1),
   span:nth-child(3) {
     width: 0.34rem;
     height: 0.34rem;
     img {
-      width: 100%;
-      height: 100%;
+       margin:0 auto;
+      width:.34rem;
+      height:.34rem;
     }
   }
   span:nth-child(2) {

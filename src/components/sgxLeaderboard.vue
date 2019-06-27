@@ -1,13 +1,17 @@
 <template>
   <div>
     <header>
+      <a href="">
       <span>
         <img src="../../static/sgxLeaderboard/img/ranked-icon-1.png@2x.png" alt>
       </span>
+      </a>
       <span>排行榜</span>
+      <a href="">
       <span>
         <img src="../../static/sgxLeaderboard/img/ranked-icon-2.png@2x.png" alt>
       </span>
+      </a>
     </header>
     <div class="nav">
       <ul>
@@ -131,13 +135,20 @@ header {
   color: white;
   padding: 0 0.33rem;
   font-size: 0;
+  a{
+    // display:inline-block;
+    width:0.5rem;
+    height:0.5rem;
+    padding-top:0.05rem;
+  }
   span:nth-child(1),
   span:nth-child(3) {
     width: 0.34rem;
     height: 0.34rem;
     img {
-      width: 100%;
-      height: 100%;
+      margin:0 auto;
+        width:0.34rem;
+        height:0.34rem;
     }
   }
   span:nth-child(2) {
